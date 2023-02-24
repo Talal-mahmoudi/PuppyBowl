@@ -1,0 +1,98 @@
+*{
+    background-color: rgb(104, 98, 98);
+}
+#app{
+    /* display: flex; */
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.navBar{
+    display: flex;
+    /* border: 1rem solid red; */
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    
+
+    
+}
+#navLink{
+    /* color: white; */
+    display: flex;
+    padding: 1%;
+
+    justify-content: center;
+    width: 100%;
+
+    /* border:5px solid orange; */
+}
+.inputBar{
+    /* border-bottom: 1px solid maroon; */
+    /* border-width: 30%; */
+    padding: 5px;
+}
+#listOfPups{
+    width: 100%;
+    
+}
+#nameInput{
+    /* border: 2px solid orange; */
+    display: flex;
+    padding: 1%;
+    width: 100%;
+    justify-content: center;
+
+
+}
+#breedInput{
+    display: flex;
+    padding: 1%;
+    width: 100%;
+    justify-content: center;
+}
+
+.allPups{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+
+}
+.loopedPups{
+    /* display: flex; */
+
+    border: 5px solid blue;
+    border-radius: 10%;
+    padding: 1%;
+    justify-content: space-around;
+    /* align-items: space-evenly; */
+    text-align: center;
+
+    padding: 5px;
+
+}
+.seeDetails{
+    color:black;
+}
+img{
+    height: 10rem;
+    width: 10rem;
+
+}
+#singlePupContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.singlePup{
+    /* display: flex; */
+    border: 5px solid blue;
+    width: 30%;
+    align-content: center;
+    border-radius: 10%;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
